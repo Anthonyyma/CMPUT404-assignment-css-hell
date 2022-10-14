@@ -1,0 +1,13 @@
+header {
+    display: block;
+    color: red;
+}
+body {
+    background-color: #F2EECB;
+    
+  }
+p {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large
+  }
