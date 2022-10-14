@@ -1,7 +1,7 @@
 Changes made to the project gutenberg HTML files
 ================================================
 Added the following line to all files:
-<link rel="stylesheet" href="test.css">
+"<link rel="stylesheet" href="test.css">"
 
 
 Assignment: CSS Hell
