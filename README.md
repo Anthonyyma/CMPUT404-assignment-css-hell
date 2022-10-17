@@ -1,7 +1,16 @@
 Changes made to the project gutenberg HTML files
 ================================================
+Changed the path of the books cover page jpg in all htmls
+
+Deleted all the infile css in all htmls
+
+Deleted some inline css in all htmls
+
 Added the following line to all files:
-"<link rel="stylesheet" href="test.css">"
+
+link rel="stylesheet" href="/style.css"
+
+<figcaption>Book Cover</figcaption>
 
 
 Assignment: CSS Hell
