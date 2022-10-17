@@ -10,6 +10,8 @@ Added the following line to all files:
 
 link rel="stylesheet" href="/style.css"
 
+<figcaption>Book Cover</figcaption>
+
 
 Assignment: CSS Hell
 ====================
