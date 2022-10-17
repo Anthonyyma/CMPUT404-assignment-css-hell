@@ -1,0 +1,28 @@
+body {
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    margin-bottom: -15%;
+}
+img {
+    height: 40%;
+}
+h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 5ex;
+}
+h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+p {
+    font-size: 1.5em;
+    font-weight: 100;
+}
