@@ -1,0 +1,41 @@
+header {
+  display: block;
+  font-size: larger;
+	text-align: center;
+}
+
+body {
+    margin: auto;
+    background-image: url("/gutenburg/resources/background.jpg");    
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #634200;
+    width: 60%;
+}
+
+p {
+    color: #634200;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+img {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}

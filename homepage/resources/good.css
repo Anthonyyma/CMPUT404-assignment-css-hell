@@ -1,28 +1,45 @@
 body {
     align-items: center;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3em;
-    margin-bottom: -15%;
+    text-align: left;
+    padding: 15%;
+    background-image: url("./background.jpg");
+    background-size: cover;
 }
 img {
-    height: 40%;
+    width: 60%;
+}
+.row {
+    display: flex;
+    min-height: 80vh;
+    height: 80vh;
+}
+.column {
+    flex: 50%;
+    padding:2em;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
 }
 h1 {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 100;
     font-size: 3em;
-    margin-bottom: 5ex;
+    text-align: left;
 }
 h2 {
-    font-size: 2.5em;
+    font-size: 4em;
     font-weight: 800;
+    text-align: center;
+    text-align: left;
 }
 p {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 100;
+    margin-bottom: 10%;
+}
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
 }
